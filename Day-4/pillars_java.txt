@@ -1,0 +1,38 @@
+// 1.Encapsulation
+//     Encapsulation is wrapping or binding of data. Encapsulaton is achieved using private variable and using the 
+//     getter and setter methods. Getter is used to get the valus and the setter is used to set the values.
+
+// 2.Polymorphism
+//     Polymorphism is used to implement multiple forms of methods. This can be achieved using the method overloading
+//     and method overriding. Method overloading means same method name but different number of parameters in same
+//      class. Method overriding means same name and same number of parameters but in the same class.
+
+// 3.Abstraction
+//     Abstraction means hiding the internal implementation and showing only the functioning. This can be achieved 
+//     using "abtract" keyword and abstract methods and abstract class. Abstract class can contain abstract methods
+//     and concrete methods. We cannot create the object of the abstract class. The abstract methods are declared in
+//     the abstract class and implemented in the sub class. Object creation is done as Child c=new Parent();
+
+// 4.Interface
+//     Interface is used to implement the multiple inheritance.Interface contains only the abstract methods. By default
+//     these abstract methods are declared private but need to implement as public in subclass. Object creation is 
+//     done as Child c=new Parent(); . "implements" keyword is used to implement interface.
+
+// 5. Multiple Inheritance
+//      It is implemented as class Child implements Parent extends PParent;
+
+// 6. Static keyword
+//     When we have to execute a method without creating object we must declare it as static. If a method is static 
+//     it is executed immediately when we run the code.
+
+// 7. Constructor and Destructor
+//     Constructor are the special methods that are executed first when object is created. The main purpose of the 
+//     Constructor and Destructor is to allocate and deallocate the memory. The Destructor is used in garbage 
+//     collection to free memory.
+
+// 8. Static variable and Normal variable
+//      Static variable is common for all objects. Static variable are stored in stack memory and normal variables are 
+//      stored in heap memory.
+
+// 9. Final variable
+//     Final variable is the variable whose value cannot be changed once assigned.
